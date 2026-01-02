@@ -11,3 +11,4 @@
   - Non-colored digits map to normal white cells
 - The C3/J8/S1 pattern in the image is disregarded, since no mapping involving letters is defined in the PDF.
 - Another observation, each bank row position is not equal to the  entry
+- There is a mismatch in the length, which likely does not affect the position (?)
