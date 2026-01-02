@@ -10,5 +10,8 @@
   - Red digits should map to red-outlined cells
   - Non-colored digits map to normal white cells
 - The C3/J8/S1 pattern in the image is disregarded, since no mapping involving letters is defined in the PDF.
-- Another observation, each bank row position is not equal to the  entry
-- There is a mismatch in the length, which likely does not affect the position (?)
+<!--- Another observation, each bank row position is not equal to the  entry
+- There is a mismatch in the length, which likely does not affect the position (?)--->
+- Row lengths in the digit banks do not match entry lengths in the grid.
+  - Therefore, a digit-bank row is unlikely to correspond to a single entry.
+  - The banks may need to be interpreted differently (e.g., read by columns, treated as a continuous stream, or chunked into entry-length segments).
