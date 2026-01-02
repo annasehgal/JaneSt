@@ -9,3 +9,4 @@
   - Blue digits should map to blue cells
   - Red digits should map to red-outlined cells
   - Non-colored digits map to normal white cells
+- The C3/J8/S1 pattern in the image is disregarded, since no mapping involving letters is defined in the PDF.
